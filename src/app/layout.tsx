@@ -7,7 +7,8 @@ interface MyComponentProps {
 
 export const metadata = {
   title: 'LUDO',
-  description: 'Immerse yourself in this digital rendition of classic board game - LUDO. Roll the dice, strategize your moves, and race against opponents.',
+  description:
+    'Immerse yourself in this digital rendition of classic board game - LUDO. Roll the dice, strategize your moves, and race against opponents.',
 };
 
 export default function RootLayout({ children }: MyComponentProps) {

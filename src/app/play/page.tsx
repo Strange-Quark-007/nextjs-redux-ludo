@@ -1,7 +1,7 @@
 'use client';
 import BoardLayout from '@/components/BoardLayout';
 import { store } from '@/redux/store';
-import { Provider } from "react-redux";
+import { Provider } from 'react-redux';
 
 const Game = () => {
   return (
@@ -9,7 +9,7 @@ const Game = () => {
       <main className="flex justify-center items-center sm:scale-100 scale-50 w-full h-full">
         <BoardLayout />
       </main>
-    </Provider >
+    </Provider>
   );
 };
 

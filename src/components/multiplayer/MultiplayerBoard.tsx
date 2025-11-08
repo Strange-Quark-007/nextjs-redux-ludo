@@ -1,7 +1,7 @@
 'use client';
-import { Socket } from "socket.io-client";
-import DynamicLudoBoard from "./DynamicLudoBoard";
-import PlayerCard from "./PlayerCard";
+import { Socket } from 'socket.io-client';
+import DynamicLudoBoard from './DynamicLudoBoard';
+import PlayerCard from './PlayerCard';
 
 interface MultiplayerBoardProps {
   socket: Socket;
