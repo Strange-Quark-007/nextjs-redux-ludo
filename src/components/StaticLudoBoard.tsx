@@ -4,10 +4,8 @@ type LudoBoardColor = {
   [key: string]: string;
 };
 
-const StaticLudoBoard: React.FC<{ color: LudoBoardColor; }> = ({ color }) => {
-
+const StaticLudoBoard: React.FC<{ color: LudoBoardColor }> = ({ color }) => {
   const memoizedBoard = useMemo(() => {
-
     const { P1, P2, P3, P4 } = color;
     const lines = [];
 
@@ -62,7 +60,6 @@ const StaticLudoBoard: React.FC<{ color: LudoBoardColor; }> = ({ color }) => {
         <path d="M 70 10 L 90 10 L 90 20 L 80 20 L 80 60 L90 60 L75 75 L 60 60 L70 60 Z" fill={P3} />
         <path d="M 130 90 L 130 80 L 90 80 L90 90 L 75 75 L 90 60 L 90 70 L 140 70 L 140 90 Z" fill={P4} />
 
-
         <line x1="70" y1="20" x2="80" y2="20" stroke="black" />
         <line x1="70" y1="30" x2="80" y2="30" stroke="black" />
         <line x1="70" y1="40" x2="80" y2="40" stroke="black" />
@@ -94,16 +91,31 @@ const StaticLudoBoard: React.FC<{ color: LudoBoardColor; }> = ({ color }) => {
 
         <line x1="70" y1="130" x2="70" y2="140" stroke="black" />
 
+        <g transform="translate(61 21) scale(0.8)">
+          <use xlinkHref="#star" />
+        </g>
+        <g transform="translate(121 61) scale(0.8)">
+          <use xlinkHref="#star" />
+        </g>
+        <g transform="translate(81 121) scale(0.8)">
+          <use xlinkHref="#star" />
+        </g>
+        <g transform="translate(21 81) scale(0.8)">
+          <use xlinkHref="#star" />
+        </g>
 
-        <g transform="translate(61 21) scale(0.8)"><use xlinkHref="#star" /></g>
-        <g transform="translate(121 61) scale(0.8)"><use xlinkHref="#star" /></g>
-        <g transform="translate(81 121) scale(0.8)"><use xlinkHref="#star" /></g>
-        <g transform="translate(21 81) scale(0.8)"><use xlinkHref="#star" /></g>
-
-        <g transform="translate(11 61) scale(0.8)"><use xlinkHref="#star" /></g>
-        <g transform="translate(81 11) scale(0.8) "><use xlinkHref="#star" /></g>
-        <g transform="translate(131 81) scale(0.8) "><use xlinkHref="#star" /></g>
-        <g transform="translate(61 131) scale(0.8) "><use xlinkHref="#star" /></g>
+        <g transform="translate(11 61) scale(0.8)">
+          <use xlinkHref="#star" />
+        </g>
+        <g transform="translate(81 11) scale(0.8) ">
+          <use xlinkHref="#star" />
+        </g>
+        <g transform="translate(131 81) scale(0.8) ">
+          <use xlinkHref="#star" />
+        </g>
+        <g transform="translate(61 131) scale(0.8) ">
+          <use xlinkHref="#star" />
+        </g>
       </svg>
     );
   }, []);

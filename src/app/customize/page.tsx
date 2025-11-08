@@ -2,7 +2,7 @@
 import CustomizePlayers from '@/components/CustomizePlayers';
 import Footer from '@/components/Footer';
 import { store } from '@/redux/store';
-import { Provider } from "react-redux";
+import { Provider } from 'react-redux';
 
 const CustomizePage = () => {
   return (

@@ -1,6 +1,6 @@
 'use client';
-import PlayerCard from "./PlayerCard";
-import DynamicLudoBoard from "./DynamicLudoBoard";
+import PlayerCard from './PlayerCard';
+import DynamicLudoBoard from './DynamicLudoBoard';
 
 const BoardLayout = () => {
   return (

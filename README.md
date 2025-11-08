@@ -27,7 +27,6 @@ This project leverages a powerful combination of modern technologies to deliver 
 
 - [**TypeScript**](https://www.typescriptlang.org/): Ensuring code quality and maintainability with a superset of JavaScript that adds static typing.
 
-
 ## **Suggestions / Reporting Issues**
 
 If you encounter any bugs or have suggestions for improvement, please don't hesitate to report them:
@@ -42,6 +41,9 @@ This project is licensed under the [MIT License](LICENSE).
 #
 
 ### HomePage
+
 ![Ludo Image](https://i.ibb.co/bR4N1jW/image.png)
+
 ### LudoBoard
+
 ![Ludo Image](https://i.ibb.co/HgKBBWj/image.png)
