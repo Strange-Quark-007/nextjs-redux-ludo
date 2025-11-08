@@ -40,10 +40,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 #
 
-### HomePage
+### Homepage
 
 ![Ludo Image](https://i.ibb.co/bR4N1jW/image.png)
 
-### LudoBoard
+### Ludoboard
 
 ![Ludo Image](https://i.ibb.co/HgKBBWj/image.png)
