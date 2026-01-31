@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import StaticLudoBoard from '@/components/StaticLudoBoard';
 import Link from 'next/link';
 
-const Home = () => {
+const Home = async () => {
   const color = {
     P1: '#FF2525',
     P2: '#4CAF50',
